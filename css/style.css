@@ -1,0 +1,126 @@
+@import url(sanitize.css);
+
+
+body{
+  background-color: #f0f0f0;
+  padding: 10px;
+  font-size: 14px;
+  color: #666;
+  font-family: 'Roboto',arial,sans-serif;
+}
+
+.my_img{
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  100px;       /* ※縦横を同値に */
+    height: 100px;       /* ※縦横を同値に */
+}
+
+.img1{
+    width:  23px;       /* ※縦横を同値に */
+    height: 23px;       /* ※縦横を同値に */
+}
+
+.img2{
+    width:  23px;       /* ※縦横を同値に */
+    height: 23px;       /* ※縦横を同値に */
+}
+
+.mail{
+  text-align:center;
+}
+
+.KJ{
+  font-size : 15px ;
+}
+
+.container{
+  background-color: silver;
+  background-color: #fff;
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #d1d1d1;
+  padding: 30px;
+  font-size: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0, .3);
+}
+
+.container2{
+
+  background-color: white;
+  width: 550px;
+  height: 180px;
+  font-size: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0, .3);
+  float: right;
+}
+
+.container3{
+  display: inline-block;
+  background-color: white;
+  width: 400px;
+  height: 455px;
+  font-size: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0, .3);
+  float: right;
+}
+
+header{
+  background-color: gray;
+  padding: 10px;
+  color: #fff;
+}
+
+h2{
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+h3{
+  font-size: 15px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+
+.bar {
+  display: flex;
+}
+
+.menu {
+  font-size: 15px;
+  list-style-type: none;
+  background-color: #fff;
+  color: #000;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.bar + .menu {
+  border-left: 1px solid #000;
+}
+
+
+/* --- Twitter埋め込み枠 --- */
+.twitter-wrap {
+  display: inline-block;
+	width: 90%;
+	margin: 0px;
+	border-left: 2px solid #037;
+	border-right: 2px solid #037;
+	border-top: 8px solid #037;
+	border-bottom: 4px solid #037;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, .4);
+}
+.twitter-wrap h2 {
+	border: none;
+	font-size: 24px;
+	padding: 5px;
+	margin: 0;
+	color: #037;
+	background-color: #fff;
+}
+@media (min-width: 768px) {
+	.twitter-wrap {
+		width: 40%;
+	}
